@@ -33,8 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Stm32ComportLib">
-      <HintPath>..\..\JDT_Eval_Tool\Stm32ComportLib\bin\Release_Customer\Stm32ComportLib.dll</HintPath>
+    <Reference Include="Stm32ComportLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Stm32ComportLib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
